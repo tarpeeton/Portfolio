@@ -1,6 +1,12 @@
 import Header from './header'
 import Me from '../assets/images/Me.png'
 import Arrow from '../assets/images/Arrow.png'
+import Cofe from '../assets/images/work/3.png'
+import { NavLink } from 'react-router-dom'
+import For from '../assets/images/work/4.png'
+import One from '../assets/images/work/1.png'
+import Two from '../assets/images/work/2.png'
+
 const Main = () => {
 	return (
 		<div>
@@ -59,14 +65,69 @@ const Main = () => {
 					</section>
 
 					<section className='work'>
-						<div className='work-image'>
+						<div className='work-image__background'></div>
+						<div className='work-title__text'>
 							<h3>Work Experience</h3>
 						</div>
-						<div className='title_work'>
-								<div className='tittiti'>s</div>
-								<div className='tittiti'>r</div>
-								<div className='tittiti'>t</div>
-								<div className='tittiti'>t</div>
+						<div className='work-example'>
+							{/* 1 CARD */}
+							<div className='work-example__linear-purple_one'>
+								<div className='work-example__linear-logo'>
+									<img src={One} />
+								</div>
+								<div className='work-example__linear-info'>
+									<h3 className='work-example__linear-header'>CIB on the Mobile		</h3>
+									<sub className='work-example__linear-subtitle' >
+										Take your client onboard seamlessly by our amazing tool of
+										digital onboard process.
+									</sub>
+									<NavLink to='/' className='work-example__linear-button'>LEARN MORE
+									</NavLink>
+								</div>
+							</div>
+							{/* 2 CARD */}
+							<div className='work-example__linear-purple'>
+								<div className='work-example__linear-logo'>
+									<img src={Two} />
+								</div>
+								<div className='work-example__linear-info'>
+									<h3 className='work-example__linear-header'>CIB on the Mobile </h3>
+									<sub className='work-example__linear-subtitle' >
+										Take your client onboard seamlessly by our amazing tool of
+										digital onboard process.
+									</sub>
+									<NavLink to='/' className='work-example__linear-button'>LEARN MORE
+									</NavLink>
+								</div>
+							</div>
+							<div className='work-example__linear-purple'>
+								<div className='work-example__linear-logo'>
+									<img src={Cofe} />
+								</div>
+								<div className='work-example__linear-info'>
+									<h3 className='work-example__linear-header'>CIB on the Mobile </h3>
+									<sub className='work-example__linear-subtitle' >
+										Take your client onboard seamlessly by our amazing tool of
+										digital onboard process.
+									</sub>
+									<NavLink to='/' className='work-example__linear-button'>LEARN MORE
+									</NavLink>
+								</div>
+							</div>
+							<div className='work-example__linear-purple-last'>
+								<div className='work-example__linear-logo'>
+									<img src={For} />
+								</div>
+								<div className='work-example__linear-info'>
+									<h3 className='work-example__linear-header'>CIB on the Mobile </h3>
+									<sub className='work-example__linear-subtitle' >
+										Take your client onboard seamlessly by our amazing tool of
+										digital onboard process.
+									</sub>
+									<NavLink to='/' className='work-example__linear-button'>LEARN MORE
+									</NavLink>
+								</div>
+							</div>
 						</div>
 					</section>
 				</div>
