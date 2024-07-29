@@ -20,6 +20,8 @@
 }
 a {
 	text-decoration: none;
+	cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="48" viewBox="0 0 24 24"><path fill="%23FF7F3E" d="M19.27 15.32 7.77 1.61A1 1 0 0 0 6 2.25v17.89a1 1 0 0 0 1.64.77l3.08-2.58 1.56 4.3a1 1 0 0 0 1.28.6l1.88-.68a1 1 0 0 0 .6-1.28l-1.56-4.3h4.02a1 1 0 0 0 .77-1.64Z"></path></svg>'),
+		auto;
 }
 .header {
 	background-color: var(--header-background);
@@ -53,8 +55,6 @@ a {
 	font-family: 'Plus Jakarta Sans';
 	line-height: 2%;
 	text-decoration: none;
-	cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="31" height="48" viewBox="0 0 24 24"><path fill="%23FF7F3E" d="M19.27 15.32 7.77 1.61A1 1 0 0 0 6 2.25v17.89a1 1 0 0 0 1.64.77l3.08-2.58 1.56 4.3a1 1 0 0 0 1.28.6l1.88-.68a1 1 0 0 0 .6-1.28l-1.56-4.3h4.02a1 1 0 0 0 .77-1.64Z"></path></svg>'),
-		auto;
 }
 
 /*  Content */
@@ -424,4 +424,32 @@ a {
 	width: 100%;
 	height: 100%;
 	border-radius: 15px;
+}
+
+/* ===========================FOOTER==================================== */
+
+.footer {
+	max-width: 65%;
+	margin-top: 98px;
+}
+.footer-contact {
+	font-size: 25px;
+	font-family: var(--main-content-family);
+	color: var(--text-white);
+}
+
+.footer-contact__message,
+.footer-contact__message-gmail {
+	margin-top: 71px;
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	font-family: var(--main-content-family);
+	color: var(--text-white);
+}
+
+.footer-contact__social-links {
+	display: flex;
+	column-gap: 28px;
+	margin-top: 33px;
 }

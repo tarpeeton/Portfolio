@@ -9,6 +9,7 @@ import Two from '../assets/images/work/2.png'
 import Skills from '../assets//images/Skills.png'
 import github from '../assets/images/github.svg'
 import telegramImg from '../assets/images/telegram.svg'
+import { Footer } from './footer'
 
 const Main = () => {
 	return (
@@ -167,20 +168,21 @@ const Main = () => {
 
 					{/* ==============Examples=========== */}
 					<section className='examples'>
-						<div  className='examples-item'>
+						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
 									<div className='examples-item__row-text'>
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-											RMS-Gaming
-										</span>
+										<span className='examples-items__title'>RMS-Gaming</span>
 										<div className='examples-items__description'>
-										RMS Gaming
-The best platform to buy games
-RMS Gaming is the best place for gaming fans. Through our platform, you can easily and quickly buy the newest and most popular games. RMS Gaming not only allows you to buy games, but also gives you the opportunity to get detailed information about games and write reviews on them.
+											RMS Gaming The best platform to buy games RMS Gaming is
+											the best place for gaming fans. Through our platform, you
+											can easily and quickly buy the newest and most popular
+											games. RMS Gaming not only allows you to buy games, but
+											also gives you the opportunity to get detailed information
+											about games and write reviews on them.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -203,37 +205,43 @@ RMS Gaming is the best place for gaming fans. Through our platform, you can easi
 											</div>
 										</div>
 									</div>
-									<div style={{marginLeft: "-25px"}} className='examples-item__row-project'>
-										<img className='example-image' src='https://ucarecdn.com/be64ac7a-13b8-4230-a977-b2e77883f661/-/preview/1000x537/'/>
+									<div
+										style={{ marginLeft: '-25px' }}
+										className='examples-item__row-project'
+									>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/be64ac7a-13b8-4230-a977-b2e77883f661/-/preview/1000x537/'
+										/>
 									</div>
 								</div>
 							</div>
 						</div>
 						{/* 2 */}
 
-
-
-
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
 									<div className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/8390f49f-6eb1-43c5-a087-bc1af4ffbc92/-/preview/1000x559/'/>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/8390f49f-6eb1-43c5-a087-bc1af4ffbc92/-/preview/1000x559/'
+										/>
 									</div>
-									<div style={{marginLeft:"10px"}}  className='examples-item__row-text'>
+									<div
+										style={{ marginLeft: '10px' }}
+										className='examples-item__row-text'
+									>
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-											MegaShop
-										</span>
+										<span className='examples-items__title'>MegaShop</span>
 										<div className='examples-items__description'>
-											
-Megashop
-A new level of online shopping
-Megashop is the best platform for online shopping of various types of products. We provide you with a convenient and pleasant shopping experience through our wide range, competitive prices and superior customer service.
+											Megashop A new level of online shopping Megashop is the
+											best platform for online shopping of various types of
+											products. We provide you with a convenient and pleasant
+											shopping experience through our wide range, competitive
+											prices and superior customer service.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -259,12 +267,7 @@ Megashop is the best platform for online shopping of various types of products. 
 								</div>
 							</div>
 						</div>
-{/* 3 */}
-
-
-
-
-
+						{/* 3 */}
 
 						<div className='examples-item'>
 							<div className='examples-item__row'>
@@ -273,13 +276,14 @@ Megashop is the best platform for online shopping of various types of products. 
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-										OkayPost
-										</span>
+										<span className='examples-items__title'>OkayPost</span>
 										<div className='examples-items__description'>
-										OkayPost
-Delivery of products from Britain to Uzbekistan
-OkeyPost is a reliable and fast service for delivering goods from the UK to Uzbekistan. With our help, you can easily order products available in the UK and deliver them to Uzbekistan. OkeyPost provides convenience, security and speed for our customers.
+											OkayPost Delivery of products from Britain to Uzbekistan
+											OkeyPost is a reliable and fast service for delivering
+											goods from the UK to Uzbekistan. With our help, you can
+											easily order products available in the UK and deliver them
+											to Uzbekistan. OkeyPost provides convenience, security and
+											speed for our customers.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -303,34 +307,42 @@ OkeyPost is a reliable and fast service for delivering goods from the UK to Uzbe
 										</div>
 									</div>
 
-									<div  style={{marginLeft: "-25px"}} className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/65db1b0b-21fe-445f-aa64-57f997ed6c3b/-/preview/1000x542/'/>
+									<div
+										style={{ marginLeft: '-25px' }}
+										className='examples-item__row-project'
+									>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/65db1b0b-21fe-445f-aa64-57f997ed6c3b/-/preview/1000x542/'
+										/>
 									</div>
 								</div>
 							</div>
 						</div>
 						{/* 4 */}
 
-						
-
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
 									<div className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/ed122bd0-fab6-408c-8db3-f04dd90d34b7/-/preview/999x548/'/>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/ed122bd0-fab6-408c-8db3-f04dd90d34b7/-/preview/999x548/'
+										/>
 									</div>
-									<div style={{marginLeft:"10px"}}  className='examples-item__row-text'>
+									<div
+										style={{ marginLeft: '10px' }}
+										className='examples-item__row-text'
+									>
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-										Digian
-										</span>
+										<span className='examples-items__title'>Digian</span>
 										<div className='examples-items__description'>
-										Digital Marketing Marketing Services
-										Digian is a full support computer marketing platform. Our help is to help you develop and renew your online business. Offering senior leadership in all areas of marketing for us.
+											Digital Marketing Marketing Services Digian is a full
+											support computer marketing platform. Our help is to help
+											you develop and renew your online business. Offering
+											senior leadership in all areas of marketing for us.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -358,9 +370,6 @@ OkeyPost is a reliable and fast service for delivering goods from the UK to Uzbe
 						</div>
 						{/* 5 */}
 
-
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
@@ -368,14 +377,14 @@ OkeyPost is a reliable and fast service for delivering goods from the UK to Uzbe
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-										Mico
-										Hospital
-										</span>
+										<span className='examples-items__title'>Mico Hospital</span>
 										<div className='examples-items__description'>
-										Online management service
-Mico Hospital is a platform that provides modern medical services online. Our goal is to provide patients with convenient and fast access to medical advice. Through Mico Hospital, you can have an online consultation, receive medical advice and monitor your health with a skilled user.
-
+											Online management service Mico Hospital is a platform that
+											provides modern medical services online. Our goal is to
+											provide patients with convenient and fast access to
+											medical advice. Through Mico Hospital, you can have an
+											online consultation, receive medical advice and monitor
+											your health with a skilled user.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -399,33 +408,44 @@ Mico Hospital is a platform that provides modern medical services online. Our go
 										</div>
 									</div>
 
-									<div  style={{marginLeft: "-25px"}} className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/7554b69c-ff6f-4031-b716-e94232d6a1ee/-/preview/1000x550/'/>
+									<div
+										style={{ marginLeft: '-25px' }}
+										className='examples-item__row-project'
+									>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/7554b69c-ff6f-4031-b716-e94232d6a1ee/-/preview/1000x550/'
+										/>
 									</div>
 								</div>
 							</div>
 						</div>
 						{/* 6 */}
 
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
 									<div className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/0f412de4-4ebb-4ef4-93db-51278f3b72c3/-/preview/999x540/'/>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/0f412de4-4ebb-4ef4-93db-51278f3b72c3/-/preview/999x540/'
+										/>
 									</div>
-									<div style={{marginLeft:"10px"}}  className='examples-item__row-text'>
+									<div
+										style={{ marginLeft: '10px' }}
+										className='examples-item__row-text'
+									>
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-										Finexo
-
-										</span>
+										<span className='examples-items__title'>Finexo</span>
 										<div className='examples-items__description'>
-										Safe and convenient trading with cryptocurrencies
-										Finexo Crypto Currency is a reliable and secure platform for trading and using cryptocurrencies. Through our services, you can buy, sell and store cryptocurrencies. With Finexo, we offer a reliable and convenient way to trade in the world of cryptocurrencies.
+											Safe and convenient trading with cryptocurrencies Finexo
+											Crypto Currency is a reliable and secure platform for
+											trading and using cryptocurrencies. Through our services,
+											you can buy, sell and store cryptocurrencies. With Finexo,
+											we offer a reliable and convenient way to trade in the
+											world of cryptocurrencies.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -453,8 +473,6 @@ Mico Hospital is a platform that provides modern medical services online. Our go
 						</div>
 						{/* 7 */}
 
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
@@ -462,12 +480,13 @@ Mico Hospital is a platform that provides modern medical services online. Our go
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-											Seninstar
-										</span>
+										<span className='examples-items__title'>Seninstar</span>
 										<div className='examples-items__description'>
-										Online music player
-Seninstar is an online music player specially designed for music lovers. Through our platform, you can listen to your favorite songs anytime and anywhere. Dive into the world of music with Seninstar and enjoy an unforgettable music experience.
+											Online music player Seninstar is an online music player
+											specially designed for music lovers. Through our platform,
+											you can listen to your favorite songs anytime and
+											anywhere. Dive into the world of music with Seninstar and
+											enjoy an unforgettable music experience.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -491,33 +510,43 @@ Seninstar is an online music player specially designed for music lovers. Through
 										</div>
 									</div>
 
-									<div  style={{marginLeft: "-25px"}} className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/595c8f01-a754-4848-a327-f8de1c0548cc/-/preview/999x551/'/>
+									<div
+										style={{ marginLeft: '-25px' }}
+										className='examples-item__row-project'
+									>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/595c8f01-a754-4848-a327-f8de1c0548cc/-/preview/999x551/'
+										/>
 									</div>
 								</div>
 							</div>
 						</div>
 						{/* 6 */}
 
-
-
 						<div className='examples-item'>
 							<div className='examples-item__row'>
 								<div className='examples-item__row-images'>
 									<div className='examples-item__row-project'>
-									<img className='example-image' src='https://ucarecdn.com/8afa202e-7861-48bb-aa9e-6e83a57e3c55/-/preview/999x605/'/>
+										<img
+											className='example-image'
+											src='https://ucarecdn.com/8afa202e-7861-48bb-aa9e-6e83a57e3c55/-/preview/999x605/'
+										/>
 									</div>
-									<div style={{marginLeft:"10px"}}  className='examples-item__row-text'>
+									<div
+										style={{ marginLeft: '10px' }}
+										className='examples-item__row-text'
+									>
 										<span className='examples-items__header'>
 											Featured Project
 										</span>
-										<span className='examples-items__title'>
-											Bio Pharm
-										</span>
+										<span className='examples-items__title'>Bio Pharm</span>
 										<div className='examples-items__description'>
-										BioPharm
-Natural healing products
-BioPharm is a company that provides natural healing products. Our goal is to improve your health in natural and safe ways. BioPharm products are distinguished by their high quality and efficiency.
+											BioPharm Natural healing products BioPharm is a company
+											that provides natural healing products. Our goal is to
+											improve your health in natural and safe ways. BioPharm
+											products are distinguished by their high quality and
+											efficiency.
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
@@ -545,16 +574,11 @@ BioPharm is a company that provides natural healing products. Our goal is to imp
 						</div>
 						{/* 7 */}
 
-
-
-
-
-
-
-
-
 						{/* END */}
 					</section>
+
+{/* Footer */}
+				<Footer/>
 				</div>
 			</section>
 		</div>
