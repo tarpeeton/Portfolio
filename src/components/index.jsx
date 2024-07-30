@@ -1,15 +1,9 @@
-import Header from './header'
-import Me from '../assets/images/Me.png'
-import Arrow from '../assets/images/Arrow.png'
-import Cofe from '../assets/images/work/3.png'
 import { NavLink } from 'react-router-dom'
-import For from '../assets/images/work/4.png'
-import One from '../assets/images/work/1.png'
-import Two from '../assets/images/work/2.png'
-import Skills from '../assets//images/Skills.png'
-import github from '../assets/images/github.svg'
-import telegramImg from '../assets/images/telegram.svg'
+
+const github = 'https://ucarecdn.com/96401127-7fda-4c7f-b054-3a6c77bceff6/'
+const telegramImg = 'https://ucarecdn.com/0f1e687a-bfb4-4fce-b3ba-b33b38926082/'
 import { Footer } from './footer'
+import Header from './header'
 
 const Main = () => {
 	return (
@@ -20,12 +14,19 @@ const Main = () => {
 					<div className='content-header__row'>
 						<div className='picture'>
 							<div className='picture-image__background'></div>
-							<img className='picture-item' src={Me} alt='my Image' />
+							<img
+								className='picture-item'
+								src='https://ucarecdn.com/34d0f86c-739b-444d-a717-55212f799d77/-/preview/258x259/'
+								alt='my Image'
+							/>
 						</div>
 
 						<div className='content-header__arrow'>
 							<div>
-								<img className='content-header__arow-image' src={Arrow} />
+								<img
+									className='content-header__arow-image'
+									src='https://ucarecdn.com/48afaeeb-9292-4493-a41b-23d3f2fe9e8f/-/preview/122x118/'
+								/>
 							</div>
 							<div className='content-header__arow-text'>
 								<span className='content-header__arow-white'>Hello! I Am</span>
@@ -53,10 +54,10 @@ const Main = () => {
 
 					<section className='info'>
 						<div className='info-title'>
-							<p>I'm a Frontend Developer</p>
+							<p>I`m a Frontend Developer</p>
 						</div>
 						<div className='info-subtitle'>
-							<sub>I'm out of work now ☹️☹️☹️</sub>
+							<sub>I`m out of work now ☹️☹️☹️</sub>
 						</div>
 						<div className='info-description'>
 							<p>
@@ -78,7 +79,7 @@ const Main = () => {
 							{/* 1 CARD */}
 							<div className='work-example__linear-purple_one'>
 								<div className='work-example__linear-logo'>
-									<img src={One} />
+									<img src='https://ucarecdn.com/f558cf7b-4724-4886-9f45-1cecbce597b8/-/preview/122x115/' />
 								</div>
 								<div className='work-example__linear-info'>
 									<h3 className='work-example__linear-header'>
@@ -96,7 +97,7 @@ const Main = () => {
 							{/* 2 CARD */}
 							<div className='work-example__linear-purple'>
 								<div className='work-example__linear-logo'>
-									<img src={Two} />
+									<img src='https://ucarecdn.com/7e3712c3-5058-439c-ad88-5dd8c4a2718b/-/preview/120x99/' />
 								</div>
 								<div className='work-example__linear-info'>
 									<h3 className='work-example__linear-header'>
@@ -113,7 +114,7 @@ const Main = () => {
 							</div>
 							<div className='work-example__linear-purple'>
 								<div className='work-example__linear-logo'>
-									<img src={Cofe} />
+									<img src='https://ucarecdn.com/fd18892f-0141-47ff-adf6-a1db60e86e53/-/preview/120x118/' />
 								</div>
 								<div className='work-example__linear-info'>
 									<h3 className='work-example__linear-header'>
@@ -130,7 +131,7 @@ const Main = () => {
 							</div>
 							<div className='work-example__linear-purple-last'>
 								<div className='work-example__linear-logo'>
-									<img src={For} />
+									<img src='https://ucarecdn.com/2e680e9c-fb89-441b-b9f2-a6b826ecf14f/-/preview/114x97/' />
 								</div>
 								<div className='work-example__linear-info'>
 									<h3 className='work-example__linear-header'>
@@ -152,18 +153,22 @@ const Main = () => {
 					<section className='skills'>
 						<div className='skills-header'>
 							<p className='skills-header__item'>
-								I'm currently looking to join a{' '}
+								I`m currently looking to join a{' '}
 								<span className='skills-header__item-purple'>
 									cross-functional{' '}
 								</span>
 								team <br />{' '}
 								<span className='skills-header__items-mixed'>
-									that values improving people's lives through accessible design
+									that values improving people`s lives through accessible design
 								</span>{' '}
 							</p>
 						</div>
 
-						<img className='skiils-images' src={Skills} alt='skils image' />
+						<img
+							className='skiils-images'
+							src='https://ucarecdn.com/f7e9368f-8c6a-4c68-b00f-ae92bb50bda1/-/preview/895x657/'
+							alt='skils image'
+						/>
 					</section>
 
 					{/* ==============Examples=========== */}
@@ -186,7 +191,7 @@ const Main = () => {
 										</div>
 										<div className='examples-links'>
 											<div className='github'>
-												<img src={github} />
+												<img src='https://ucarecdn.com/96401127-7fda-4c7f-b054-3a6c77bceff6/' />
 												<NavLink
 													className='examples-links__text'
 													to='https://github.com/tarpeeton/Rms_gaming'
@@ -577,8 +582,8 @@ const Main = () => {
 						{/* END */}
 					</section>
 
-{/* Footer */}
-				<Footer/>
+					{/* Footer */}
+					<Footer />
 				</div>
 			</section>
 		</div>

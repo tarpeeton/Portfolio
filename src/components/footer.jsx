@@ -1,9 +1,4 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
-import Telegram from '../assets/images/socials/1.svg'
-import Instagram from '../assets/images/socials/2.svg'
-import Github from '../assets/images/socials/3.svg'
-import CallMe from '../assets/images/socials/4.svg'
 
 const Footer = () => {
 	return (
@@ -13,9 +8,9 @@ const Footer = () => {
 			</div>
 			<div className='footer-contact__message'>
 				<p>
-					I'm currently looking to join a cross-functional team that values
-					improving people's lives through accessible design. or have a project
-					in mind? Let's connect.
+					I`m currently looking to join a cross-functional team that values
+					improving people`s lives through accessible design. or have a project
+					in mind? Let`s connect.
 				</p>
 
 				<div className='footer-contact__message-link'>
@@ -31,22 +26,22 @@ const Footer = () => {
 			<div className='footer-contact__social-links'>
 				<div>
 					<NavLink to='t.me/tot_rustem'>
-						<img src={Telegram} />
+						<img src='https://ucarecdn.com/3376cf22-9933-4b6d-a94e-a706df45533d/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='https://www.instagram.com/tarpeeton_dev/'>
-						<img src={Instagram} />
+						<img src='https://ucarecdn.com/6c322df9-2560-4e18-8569-779f07c77564/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='https://github.com/tarpeeton'>
-						<img src={Github} />
+						<img src='https://ucarecdn.com/5d8fbb81-5413-4a72-878c-ce4e3b096f7a/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='tel:+998917888041'>
-						<img src={CallMe} />
+						<img src='https://ucarecdn.com/93aa8d4c-edc1-49f8-b47f-f8141c7db87f/' />
 					</NavLink>
 				</div>
 			</div>
