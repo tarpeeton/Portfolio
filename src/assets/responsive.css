@@ -1,0 +1,151 @@
+@media only screen and (max-width: 575px) {
+	.header {
+		max-width: 100%;
+	}
+	.logo {
+		width: 35px;
+		aspect-ratio: 1;
+		img {
+			width: 100%;
+			aspect-ratio: 1;
+		}
+	}
+	.header-row__links {
+		justify-content: end;
+	}
+	.header-row__links > li {
+		display: none;
+	}
+	.header-row__button {
+		display: block;
+	}
+	.content-header {
+		padding-top: 20px;
+		margin: 0 5% 0;
+	}
+	.content-header__row {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.content-header__info {
+		width: 100%;
+	}
+	.content-header__arrow {
+		top: 250px;
+		margin: 0;
+		bottom: 250px;
+	}
+	.content-header__arow-text {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+
+	.content-header__info-title {
+		margin-top: 70px;
+		font-size: 13px;
+	}
+	.content-header__arow-image {
+		display: none;
+	}
+	.content-header__info-row {
+		font-size: 24px;
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+	.content-header__info-bg {
+		background-image: none;
+		width: 25%;
+	}
+	.content-header__info-top {
+		width: 20%;
+	}
+	.content-header_subtitle {
+		margin-top: 25px;
+	}
+
+	.info-title {
+		text-align: center;
+		font-size: 28px;
+	}
+	.content-header__arrow {
+		font-size: 24px;
+	}
+	.info-subtitle {
+		margin: 0;
+		text-align: center;
+	}
+	.info-description {
+		margin: 40px 0 0 0;
+		text-align: center;
+		font-size: 20px;
+	}
+	.work {
+		margin: 25px 0 0 0;
+	}
+	.work-image__background {
+		width: 100%;
+		margin: 0;
+		height: 400px;
+	}
+	.work-title__text {
+		top: 10px;
+		margin: 0 10px;
+		text-align: center;
+		font-size: 35px;
+	}
+	.work-example {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+	}
+	.work-example__linear-purple_one {
+		width: 100%;
+	}
+	.work-example__linear-purple {
+		width: 100%;
+	}
+	.work-example__linear-purple-last {
+		width: 100%;
+	}
+	.skills {
+		margin-top: 450px;
+	}
+	.skills-header {
+		width: 90%;
+	}
+	.skiils-images {
+		width: 100%;
+	}
+	.examples-item__row-images {
+		display: flex;
+		flex-direction: column;
+	}
+	.examples-item__row-text {
+		width: 100%;
+	}
+	.examples-items__header {
+		font-size: 13px;
+	}
+	.examples-item__row-project {
+		width: 100%;
+		margin: 0;
+	 border-top: none; 
+   border-left: none;
+	}
+	.margin__left  {
+		margin: 0;
+	}
+	.examples-items__title {
+		font-size: 30px;
+	}
+	.examples-items__description {
+		font-size: 12px;
+		padding: 20px 15px;
+	}
+	.row_text--margin {
+		margin: 0;
+	}
+}

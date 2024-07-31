@@ -49,6 +49,12 @@ a {
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	align-items: center;
+}
+.header-row__button {
+	background-color: inherit;
+	border: 1px solid wheat;
+	display: none;
 }
 .header-row__items {
 	color: var(--text-white);
@@ -289,7 +295,9 @@ a {
 	color: var(--text-white);
 	font-family: var(--font-poppins);
 }
-
+.margin__left {
+	margin-left: -25px;
+}
 .work-example__linear-subtitle {
 	font-size: 8px;
 	width: 80%;
@@ -298,7 +306,9 @@ a {
 	color: var(--text-white);
 	font-family: var(--font-poppins);
 }
-
+.row_text--margin {
+	margin-left: 10px;
+}
 .work-example__linear-button {
 	width: 119px;
 	font-size: 10px;

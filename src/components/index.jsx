@@ -211,8 +211,8 @@ const Main = () => {
 										</div>
 									</div>
 									<div
-										style={{ marginLeft: '-25px' }}
-										className='examples-item__row-project'
+										
+										className='examples-item__row-project margin__left'
 									>
 										<img
 											className='example-image'
@@ -234,8 +234,8 @@ const Main = () => {
 										/>
 									</div>
 									<div
-										style={{ marginLeft: '10px' }}
-										className='examples-item__row-text'
+									
+										className='examples-item__row-text row_text--margin'
 									>
 										<span className='examples-items__header'>
 											Featured Project
@@ -313,8 +313,7 @@ const Main = () => {
 									</div>
 
 									<div
-										style={{ marginLeft: '-25px' }}
-										className='examples-item__row-project'
+										className='examples-item__row-project  margin__left'
 									>
 										<img
 											className='example-image'
@@ -336,8 +335,8 @@ const Main = () => {
 										/>
 									</div>
 									<div
-										style={{ marginLeft: '10px' }}
-										className='examples-item__row-text'
+									
+										className='examples-item__row-text row_text--margin'
 									>
 										<span className='examples-items__header'>
 											Featured Project
@@ -414,8 +413,8 @@ const Main = () => {
 									</div>
 
 									<div
-										style={{ marginLeft: '-25px' }}
-										className='examples-item__row-project'
+										
+										className='examples-item__row-project   margin__left'
 									>
 										<img
 											className='example-image'
@@ -437,8 +436,8 @@ const Main = () => {
 										/>
 									</div>
 									<div
-										style={{ marginLeft: '10px' }}
-										className='examples-item__row-text'
+									
+										className='examples-item__row-text row_text--margin'
 									>
 										<span className='examples-items__header'>
 											Featured Project
@@ -516,8 +515,8 @@ const Main = () => {
 									</div>
 
 									<div
-										style={{ marginLeft: '-25px' }}
-										className='examples-item__row-project'
+									
+										className='examples-item__row-project margin__left'
 									>
 										<img
 											className='example-image'
@@ -539,8 +538,8 @@ const Main = () => {
 										/>
 									</div>
 									<div
-										style={{ marginLeft: '10px' }}
-										className='examples-item__row-text'
+										
+										className='examples-item__row-text row_text--margin'
 									>
 										<span className='examples-items__header'>
 											Featured Project
