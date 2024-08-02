@@ -132,10 +132,10 @@
 	.examples-item__row-project {
 		width: 100%;
 		margin: 0;
-	 border-top: none; 
-   border-left: none;
+		border-top: none;
+		border-left: none;
 	}
-	.margin__left  {
+	.margin__left {
 		margin: 0;
 	}
 	.examples-items__title {

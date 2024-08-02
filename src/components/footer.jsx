@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom'
 
-const Footer = () => {
+// eslint-disable-next-line react/prop-types
+const Footer = ({ navRef }) => {
 	return (
-		<footer className='footer'>
+		<footer className='footer' ref={navRef}>
 			<div className='footer-contact'>
 				<h3>Contact</h3>
 			</div>

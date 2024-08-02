@@ -406,17 +406,13 @@ a {
 	display: flex;
 	column-gap: 25px;
 }
-.github {
+
+.sources {
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	img {
-		width: 60px;
-	}
-}
-.telegram {
-	display: flex;
-	align-items: center;
-	column-gap: 5px;
+	gap: 6px;
+	
 }
 .examples-links__text {
 	color: #fdbf60;
