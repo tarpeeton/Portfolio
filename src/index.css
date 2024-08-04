@@ -1,5 +1,3 @@
-
-
 :root {
 	--header-background: #1a0b2e;
 	--header-heigth: 113px;
@@ -31,6 +29,9 @@ a {
 	height: 100px;
 	display: flex;
 	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
 }
 .header-row {
 	width: 100%;
@@ -53,7 +54,10 @@ a {
 }
 .header-row__button {
 	background-color: inherit;
-	border: 1px solid wheat;
+	width: 35px;
+	img {
+		width: 100%;
+	}
 	display: none;
 }
 .header-row__items {
@@ -412,7 +416,6 @@ a {
 	justify-content: center;
 	align-items: center;
 	gap: 6px;
-	
 }
 .examples-links__text {
 	color: #fdbf60;

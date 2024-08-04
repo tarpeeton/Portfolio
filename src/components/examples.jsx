@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom'
 
 const sources = 'https://ucarecdn.com/96401127-7fda-4c7f-b054-3a6c77bceff6/'
-const sourcesImg = 'https://ucarecdn.com/0f1e687a-bfb4-4fce-b3ba-b33b38926082/'
+const sourcesImg = 'https://ucarecdn.com/cc968b90-f2c9-440d-b9aa-201ae476fb9f/'
 const webIcon = 'https://ucarecdn.com/dc04f694-2319-41de-a9a3-a8978a31bb7e/'
 
 // eslint-disable-next-line react/prop-types
@@ -94,7 +94,7 @@ const Examples = ({ projectRef }) => {
 									</NavLink>
 								</div>
 								<div className='sources'>
-									<img src={sourcesImg} />
+									<img src={sourcesImg} className='telegram_user_source '/>
 									<NavLink
 										className='examples-links__text'
 										to='https://t.me/tot_rustem'

@@ -26,23 +26,23 @@ const Footer = ({ navRef }) => {
 
 			<div className='footer-contact__social-links'>
 				<div>
-					<NavLink to='t.me/tot_rustem'>
-						<img src='https://ucarecdn.com/3376cf22-9933-4b6d-a94e-a706df45533d/' />
+					<NavLink to='https://t.me/tot_rustem'>
+						<img className='social-links__image-bordered' src='https://ucarecdn.com/3376cf22-9933-4b6d-a94e-a706df45533d/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='https://www.instagram.com/tarpeeton_dev/'>
-						<img src='https://ucarecdn.com/6c322df9-2560-4e18-8569-779f07c77564/' />
+						<img className='social-links__image-bordered' src='https://ucarecdn.com/6c322df9-2560-4e18-8569-779f07c77564/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='https://github.com/tarpeeton'>
-						<img src='https://ucarecdn.com/5d8fbb81-5413-4a72-878c-ce4e3b096f7a/' />
+						<img  className='social-links__image-bordered' src='https://ucarecdn.com/5d8fbb81-5413-4a72-878c-ce4e3b096f7a/' />
 					</NavLink>
 				</div>
 				<div>
 					<NavLink to='tel:+998917888041'>
-						<img src='https://ucarecdn.com/93aa8d4c-edc1-49f8-b47f-f8141c7db87f/' />
+						<img className='social-links__image-bordered' src='https://ucarecdn.com/93aa8d4c-edc1-49f8-b47f-f8141c7db87f/' />
 					</NavLink>
 				</div>
 			</div>

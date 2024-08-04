@@ -1,0 +1,65 @@
+.navigationMobile {
+	width: 40%;
+	height: 200px;
+	border-radius: 12px;
+	background-color: #1a0b2e;
+	color: #ffffff;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999999;
+}
+
+.navItem_name {
+	font-family: 'Preahvihear';
+	font-size: 14px;
+}
+.navigationMobile-col {
+	display: flex;
+	flex-direction: column;
+	column-gap: 5px;
+	padding: 10px;
+}
+
+.navigationMobile-col__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+.header-row__button {
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+.header-row__button svg {
+	fill: #000000;
+}
+.navigationMobile-col__svg {
+	width: 25px;
+	aspect-ratio: 1;
+	img {
+		width: 100%;
+	}
+}
+.mobilebutton-col {
+	width: 50%;
+	margin: 0 auto;
+	background: inherit;
+
+	button {
+		width: 100%;
+		margin-top: 5px;
+		height: 100%;
+		background-color: inherit;
+		border: none;
+		outline: none;
+		img {
+			width: 35px;
+		}
+	}
+}

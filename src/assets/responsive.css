@@ -1,6 +1,9 @@
 @media only screen and (max-width: 575px) {
 	.header {
 		max-width: 100%;
+		position: sticky;
+		top: 0;
+		z-index: 9999;
 	}
 	.logo {
 		width: 35px;
@@ -131,12 +134,12 @@
 	}
 	.examples-item__row-project {
 		width: 100%;
-		margin: 0;
 		border-top: none;
 		border-left: none;
+		order: 2;
 	}
 	.margin__left {
-		margin: 0;
+		margin: 25px 0;
 	}
 	.examples-items__title {
 		font-size: 30px;
@@ -145,7 +148,41 @@
 		font-size: 12px;
 		padding: 20px 15px;
 	}
+	.examples-links {
+		width: 100%;
+		column-gap: 5px;
+		margin: 20px 0;
+
+	}
+	.sources {
+		gap: 0;
+		img {
+			width: 35px;
+		}
+		a {
+			font-size: 14px;
+		}
+	}
+	.telegram_user_source {
+		width: 25px;
+	}
 	.row_text--margin {
 		margin: 0;
 	}
+	.footer {
+		max-width: 100%;
+		text-align: center;
+	}
+	.footer-contact__message {
+		margin-top: 20px;
+	}
+	 .footer-contact__message-gmail {
+		margin-top: 10px;
+	 }
+	 .footer-contact__social-links {
+		justify-content: center;
+	 }
+	 .social-links__image-bordered {
+		width: 50px;
+	 }
 }
