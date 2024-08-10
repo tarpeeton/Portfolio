@@ -405,6 +405,7 @@ a {
 	color: #ccd6f6;
 	background-image: url('https://ucarecdn.com/7ac64067-06e3-4b31-a296-5b0235b136ce/-/preview/669x165/');
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 .examples-links {
 	display: flex;
